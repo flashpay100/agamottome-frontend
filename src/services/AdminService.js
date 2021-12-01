@@ -1,6 +1,6 @@
 import Axios from 'axios'
 
-const Url = "http://localhost:8760/adminservice"
+const Url = "https://cors-everywhere.herokuapp.com/http://3.86.85.232:8760/adminservice"
 
 export default function adminService() {
     return "Admin Service"
