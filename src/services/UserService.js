@@ -1,6 +1,6 @@
 import Axios from 'axios'
 
-const Url = "https://cors-everywhere.herokuapp.com/http://3.86.85.232:8760/userservice"
+const Url = "https://cors-everywhere.herokuapp.com/http://apigatewayservice-env.eba-jnr6nrga.us-east-1.elasticbeanstalk.com/userservice"
 
 export default function userService() {
     return "User Service"
